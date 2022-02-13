@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+body{
+    margin: 0;
+    background-color: hsl(226, 43%, 10%);
+    Font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.report{
+    width: 15%;
+    height: 27rem;
+    background-color: hsl(235, 46%, 20%);
+    margin: 9% 3% 0 0 ;
+    border-radius: 15px;
+}
+.report img{
+    width: 5rem;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.padd{
+    padding: 20px;
+    color: white;
+}
+.small{
+    font-family: 'Rubik', sans-serif;
+    font-size: small;
+    color: gainsboro;
+    border-radius: 15px;
+}
+.back{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+}
+.jeremy{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-top: -0.5rem;
+}
+.period{
+    color: hsl(235, 45%, 61%);
+    padding: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-flow: column;
+}
+.period button{
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+    /* color: hsl(235, 45%, 61%); */
+    color: white;
+    font-size: 16px;
+    width: 50%;
+    margin-top: 1rem;
+    background: none;
+    border: none;
+}
+.period button:hover{
+    color: white;
+}
+.period p:visited{
+    color: white;
+}
+.things{
+    width: 60%;
+    height: 27rem;
+    margin: 9% 0 0 0 ;
+    display: grid;
+    grid-template-areas: 
+    'work play study'
+    'exercise social self';
+    grid-gap: 20px;
+}
+.one{
+    width: 100%;
+    height: 74%;
+    margin-top: 3.5rem;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column;
+    cursor: pointer;
+}
+.work{
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(images/icon-work.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+    border-radius: 15px;
+}
+.work1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.play{
+    background-color: hsl(195, 74%, 62%);
+    border-radius: 15px;
+    background-image: url(images/icon-play.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+}
+.play1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.study{
+    background-color: hsl(348, 100%, 68%);
+    border-radius: 15px;
+    background-image: url(images/icon-study.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+}
+.study1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.exercise{
+    background-color: hsl(145, 58%, 55%);
+    border-radius: 15px;
+    background-image: url(images/icon-exercise.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+}
+.exercise1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.social{
+    background-color: hsl(264, 64%, 52%);
+    border-radius: 15px;
+    background-image: url(images/icon-social.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+}
+.social1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.self{
+    background-color: hsl(43, 84%, 65%);
+    border-radius: 15px;
+    background-image: url(images/icon-self-care.svg);
+    background-repeat:no-repeat;
+    background-position-x: 90%;
+}
+.self1:hover{
+    background-color: hsl(235, 33%, 34%);
+}
+.two{
+    width: 70%;
+    height: 20%;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.two img{
+    width: 15px;
+    height: 5px;
+    cursor: pointer;
+}
+.three{
+    font-family:'Rubik', sans-serif;
+    color: white;
+    width: 70%;
+    height: 50%;
+    align-self: center;
+    overflow: hidden;
+    font-size: 25px;
+}
+.four{
+    width: 70%;
+    height: 20%;
+    align-self: center;
+    color:gainsboro;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+.days{
+    color: white
+}
+.blue{
+    color: hsl(235, 45%, 61%) !important
+}
+.bb{
+    display: flex;
+    flex-flow: column;
+}
+
+@media  screen and (max-width:600px) {
+    body{
+        flex-flow: column;
+        align-items: center;
+    }
+    .things{
+        display: flex;
+        flex-flow: column;
+        width: 90%;
+    }
+    .report{
+        width: 90%;
+        height: 50%;
+        flex-flow: row;
+    }
+    .small{
+        margin-left: 20px;
+    }
+    .jeremy{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .padd{
+        display: flex;
+    }
+    .period{
+        flex-flow: row;
+        height: 20%;
+    }
+    .bb{
+        display: flex;
+        flex-flow:row;
+        justify-content: center;
+        align-items: center;
+        /* position: relative; */
+    }
+    .three{
+        width: 30%;
+        height: 100%;
+    }
+    .four{
+        width: 40%;
+        height: 100%;
+        text-align: end;
+        margin-top: 30px;
+        /* position: absolute;
+        right:  2px;
+        text-align: end;
+    } */
+}
